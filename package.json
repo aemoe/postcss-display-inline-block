@@ -1,0 +1,28 @@
+{
+    "name": "postcss-display-inline-block",
+    "version": "1.0.0",
+    "description": "PostCSS plugin to add hacker for IE8",
+    "keywords": [
+        "postcss",
+        "css",
+        "postcss-plugin",
+        "display-inline-block"
+    ],
+    "author": "AeMoE <aemoe@icloud.com>",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": ""
+    },
+    "dependencies": {
+        "postcss": "^5.0.4"
+    },
+    "devDependencies": {
+        "chai": "^3.2.0",
+        "gulp": "^3.9.0",
+        "gulp-postcss": "^6.1.1",
+    },
+    "scripts": {
+        "test": "gulp"
+    }
+}
