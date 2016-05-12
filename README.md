@@ -4,6 +4,22 @@
 
 [PostCSS]: https://github.com/postcss/postcss
 
+**Use for gulp**
+
+```js
+var gulp = require('gulp');
+var postcss = require('gulp-postcss');
+
+
+gulp.task('default', function() {
+    return gulp.src('src/**/*.css')
+        .pipe(postcss([require('postcss-display-block')]))
+        .pipe(gulp.dest('build/'));
+});
+
+```
+**For example**
+
 ```css
 /* Input example */
 .display_inline_block {
@@ -19,7 +35,7 @@
     *zoom: 1;
 }
 ```
-or 
+**or**
 
 ```css
 /* Input example */
@@ -38,7 +54,7 @@ or
 }
 ```
 
-or
+**or**
 
 ```css
 /* Input example */
