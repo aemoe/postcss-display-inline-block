@@ -1,7 +1,7 @@
 {
     "name": "postcss-display-inline-block",
     "version": "1.0.0",
-    "description": "PostCSS plugin to add hacker for IE8",
+    "description": "PostCSS plugin to add display:inline-block hacker for IE8",
     "keywords": [
         "postcss",
         "css",
@@ -12,7 +12,7 @@
     "license": "MIT",
     "repository": {
         "type": "git",
-        "url": ""
+        "url": "https://github.com/aemoe/postcss-display-inline-block"
     },
     "dependencies": {
         "postcss": "^5.0.4"
