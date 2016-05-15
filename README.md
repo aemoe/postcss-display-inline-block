@@ -4,6 +4,13 @@
 
 [PostCSS]: https://github.com/postcss/postcss
 
+**Install from npm**
+
+
+```js
+npm install postcss-display-inline-block 
+```
+
 **Use for gulp**
 
 ```js
