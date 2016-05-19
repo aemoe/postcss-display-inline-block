@@ -1,6 +1,6 @@
 # PostCSS Display-inline-block
 
-[PostCSS] PostCSS plugin to add hacker for IE8.
+[PostCSS] PostCSS plugin to add hacker for IE7 and IE6.
 
 [PostCSS]: https://github.com/postcss/postcss
 
