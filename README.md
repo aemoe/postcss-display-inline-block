@@ -25,6 +25,28 @@ gulp.task('default', function() {
 });
 
 ```
+**Use for webpack**
+
+```js
+module: {
+        //加载器配置
+        loaders: [{
+                test: /\.css$/,
+                exclude: path.resolve(__dirname, 'src/dist/css/common'),
+                loader: ExtractTextPlugin.extract('style', 'css?modules&localIdentName=[name]__[local]___[hash:base64:5]!postcss?sourceMap=true')
+            }
+    },
+    postcss: function(webpack) {
+        return [
+            postcssImport({
+                addDependencyTo: webpack
+            }),
+            require('postcss-display-inline-block')
+        ];
+    }
+
+```
+
 **For example**
 
 ```css
