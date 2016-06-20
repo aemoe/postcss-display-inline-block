@@ -1,28 +1,31 @@
 {
-    "name": "postcss-display-inline-block",
-    "version": "1.0.0",
-    "description": "PostCSS plugin to add display:inline-block hacker for IE8",
-    "keywords": [
-        "postcss",
-        "css",
-        "postcss-plugin",
-        "display-inline-block"
-    ],
-    "author": "AeMoE <aemoe@icloud.com>",
-    "license": "MIT",
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/aemoe/postcss-display-inline-block"
-    },
-    "dependencies": {
-        "postcss": "^5.0.4"
-    },
-    "devDependencies": {
-        "chai": "^3.2.0",
-        "gulp": "^3.9.0",
-        "gulp-postcss": "^6.1.1"
-    },
-    "scripts": {
-        "test": "gulp"
-    }
+  "name": "postcss-display-inline-block",
+  "version": "1.0.0",
+  "description": "PostCSS plugin to add display:inline-block hacker for IE8",
+  "keywords": [
+    "postcss",
+    "css",
+    "postcss-plugin",
+    "display-inline-block"
+  ],
+  "author": "AeMoE <aemoe@icloud.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aemoe/postcss-display-inline-block"
+  },
+  "dependencies": {
+    "postcss": "^5.0.4"
+  },
+  "devDependencies": {
+    "autoprefixer": "^6.3.6",
+    "chai": "^3.2.0",
+    "gulp": "^3.9.0",
+    "gulp-postcss": "^6.1.1",
+    "postcss-modules": "^0.5.0",
+    "precss": "^1.4.0"
+  },
+  "scripts": {
+    "test": "gulp"
+  }
 }

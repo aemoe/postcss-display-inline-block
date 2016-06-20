@@ -1,3 +1,28 @@
-.display_inline_block {
+.wrap {
+    padding: 10px;
+    background: #ffc;
+}
+
+.header {
+    background: #ccf;
     display: inline-block;
+}
+
+a {
+    display: flex;
+}
+
+.notice--clear {
+    @if 3 < 5 {
+        background: green;
+    }
+    @else {
+        background: blue;
+    }
+}
+
+@for $i from 1 to 3 {
+    .b-$i {
+        width: $(i)px;
+    }
 }

@@ -1,5 +1,33 @@
-.display_inline_block {
+.simple__wrap___B3Wm5 {
+    padding: 10px;
+    background: #ffc;
+}
+
+.simple__header___3CR0D {
+    background: #ccf;
     display: inline-block;
     *display: inline;
     *zoom: 1;
+}
+
+a {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.simple__notice--clear___3A-sH {
+    background: green
+}
+
+.simple__b-1___1x2QV {
+    width: 1px;
+}
+
+.simple__b-2___1DVfi {
+    width: 2px;
+}
+
+.simple__b-3___rnlRG {
+    width: 3px;
 }
